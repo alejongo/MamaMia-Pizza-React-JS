@@ -8,8 +8,8 @@ import { Col } from "react-bootstrap";
 export const CardPizza = ({ name, price, ingredients, img }) => {
   return (
     <>
-      <Col xs md={6} lg={3}>
-        <Card xs={12} md={6} lg={4} className="my-2">
+      <Col xs={12} md={4} lg={3}>
+        <Card className="my-2">
           <Card.Img variant="top" src={img} />
           <Card.Body>
             <Card.Title>{name}</Card.Title>
