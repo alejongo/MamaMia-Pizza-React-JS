@@ -1,13 +1,12 @@
-import { Container, Row, Stack } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import { Header } from "./Header";
-import { NavbarMenu } from "./Navbar";
+import { NavbarMenu } from "./NavbarMenu";
 import { CardPizza } from "./CardPizza";
 import { Footer } from "./Footer";
 
 export const Home = () => {
   return (
     <>
-      <NavbarMenu />
       <Header />
 
       <Container fluid className="min-vh-90">
@@ -38,8 +37,6 @@ export const Home = () => {
           />
         </Row>
       </Container>
-
-      <Footer />
     </>
   );
 };
